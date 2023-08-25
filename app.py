@@ -21,6 +21,6 @@ df = pd.DataFrame({
 line_count = st.slider('Select a line count', 1, 10, 3)
 
 # and used to select the displayed lines
-head_df = df['first column'].head(line_count)
+head_df = df.head(line_count)
 
 head_df
